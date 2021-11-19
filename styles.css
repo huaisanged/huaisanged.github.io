@@ -1,0 +1,15 @@
+.buttonRow {
+    height:200px;
+    position:relative;
+}
+
+.buttonDiv {
+    margin:0;
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+
+.checkRow {
+    margin:50px;
+}
