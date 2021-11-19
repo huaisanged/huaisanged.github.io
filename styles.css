@@ -1,15 +1,12 @@
-.buttonRow {
-    height:200px;
-    position:relative;
+.container {
+    width:30%;
+    margin: auto;
 }
 
 .buttonDiv {
-    margin:0;
-    position: absolute;
-    top:50%;
-    left:50%;
+    margin-top: 20px;
 }
 
-.checkRow {
-    margin:50px;
+#mainrow {
+    padding:5px;
 }
