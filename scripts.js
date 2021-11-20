@@ -83,7 +83,7 @@ function onDutySign(staffList) {
     for (var i = 0; i < staffList.length; i++) {
         var id = '#' + staffList[i].replace(/\s+/g,'') + "onDuty";
         if (document.querySelector(id).checked) {
-            onDutySign += staffList[i] + " ~n~"
+            onDutySign += staffList[i] + " ~n~ "
         }
     };
     onDutySign = onDutySign.substr(0,onDutySign.length - 4);
@@ -98,7 +98,7 @@ function onCallSign(staffList) {
         //alert("i: " + i);
         var id = '#' + staffList[i].replace(/\s+/g,'') + "onCall";
         if (document.querySelector(id).checked) {
-            onCallSign += staffList[i] + " ~n~";
+            onCallSign += staffList[i] + " ~n~ ";
         }
     };
     onCallSign = onCallSign.substr(0,onCallSign.length - 4);
