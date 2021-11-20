@@ -34,6 +34,7 @@ function getStaff() {
         ,"Skye Johnson"
         ,"Natalie Quinn"
         ,"Abby Normal"
+        ,"Masked Physician"
     ];
     staffList.sort();
     return staffList;
