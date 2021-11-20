@@ -33,6 +33,7 @@ function getStaff() {
         ,"Salvatore Romano"
         ,"Skye Johnson"
         ,"Natalie Quinn"
+        ,"Abby Normal"
     ];
     staffList.sort();
     return staffList;
